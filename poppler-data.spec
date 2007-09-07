@@ -1,6 +1,6 @@
 %define name poppler-data
 %define version 0.1
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Encoding files for poppler
 Name: %{name}
@@ -28,15 +28,13 @@ and licensed much more strictly, and thus distributed separately.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 %makeinstall_std datadir=%_datadir
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
 %doc README COPYING
 %_datadir/poppler/
-
-
