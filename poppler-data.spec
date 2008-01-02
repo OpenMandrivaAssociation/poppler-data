@@ -10,6 +10,7 @@ Source0: http://poppler.freedesktop.org/%{name}-%{version}.tar.gz
 License: Distributable
 Group: Development/X11
 Url: http://poppler.freedesktop.org/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
 %description
