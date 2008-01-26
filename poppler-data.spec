@@ -1,11 +1,7 @@
-%define name poppler-data
-%define version 0.1.1
-%define release %mkrel 1
-
+Name: poppler-data
+Version: 0.2.0
+Release: %mkrel 1
 Summary: Encoding files for poppler
-Name: %{name}
-Version: %{version}
-Release: %{release}
 Source0: http://poppler.freedesktop.org/%{name}-%{version}.tar.gz
 License: Distributable
 Group: Development/X11
