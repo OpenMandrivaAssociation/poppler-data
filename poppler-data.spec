@@ -1,5 +1,5 @@
 Name: poppler-data
-Version: 0.4.2
+Version: 0.4.3
 Release: %mkrel 1
 Summary: Encoding files for poppler
 Source0: http://poppler.freedesktop.org/%{name}-%{version}.tar.gz
@@ -13,10 +13,9 @@ BuildArch: noarch
 This package consists of encoding files for use with poppler.  The
 encoding files are optional and poppler will automatically read them
 if they are present.  When installed, the encoding files enables
-poppler to correctly render CJK and Cyrrilic properly.  While poppler
+poppler to correctly render CJK and Cyrillic properly.  While poppler
 is licensed under the GPL, these encoding files are copyright Adobe
 and licensed much more strictly, and thus distributed separately.
-
 
 %prep
 %setup -q
