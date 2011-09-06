@@ -1,6 +1,6 @@
 Name: poppler-data
-Version: 0.4.4
-Release: %mkrel 2
+Version: 0.4.5
+Release: %mkrel 1
 Summary: Encoding files for poppler
 Source0: http://poppler.freedesktop.org/%{name}-%{version}.tar.gz
 License: Distributable
