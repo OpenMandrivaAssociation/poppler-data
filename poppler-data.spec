@@ -1,12 +1,11 @@
 Name: poppler-data
-Version: 0.4.4
-Release: %mkrel 3
+Version: 0.4.6
+Release: 1
 Summary: Encoding files for poppler
 Source0: http://poppler.freedesktop.org/%{name}-%{version}.tar.gz
 License: Distributable
 Group: Development/X11
 Url: http://poppler.freedesktop.org/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 
 %description
@@ -25,9 +24,6 @@ and licensed much more strictly, and thus distributed separately.
 %install
 rm -rf %{buildroot}
 %makeinstall_std datadir=%_datadir
-
-%clean
-rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
