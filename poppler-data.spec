@@ -1,6 +1,6 @@
 Name: poppler-data
 Version: 0.4.6
-Release: 3
+Release: 4
 Summary: Encoding files for poppler
 Source0: http://poppler.freedesktop.org/%{name}-%{version}.tar.gz
 License: Distributable
