@@ -16,6 +16,13 @@ poppler to correctly render CJK and Cyrillic properly.  While poppler
 is licensed under the GPL, these encoding files are copyright Adobe
 and licensed much more strictly, and thus distributed separately.
 
+%package devel
+Summary:	Developer files for %{name}
+Requires:	%{name} = %{EVRD}
+Group:		Development/Other
+%description devel
+%{summary}.
+
 %prep
 %setup -q
 
@@ -28,3 +35,5 @@ and licensed much more strictly, and thus distributed separately.
 %doc README COPYING
 %{_datadir}/poppler/
 
+%files devel
+%{_datadir}/pkgconfig/poppler-data.pc
