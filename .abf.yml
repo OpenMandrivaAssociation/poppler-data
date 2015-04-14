@@ -1,4 +1,3 @@
-removed_sources:
-  poppler-data-0.4.4.tar.gz: bd6dd1544046ac963fd712c066865db56681288b
+---
 sources:
-  poppler-data-0.4.6.tar.gz: f030563eed9f93912b1a546e6d87936d07d7f27d
+  poppler-data-0.4.7.tar.gz: 556a5bebd0eb743e0d91819ba11fd79947d8c674
