@@ -1,7 +1,7 @@
 Summary:	Encoding files for poppler
 Name:		poppler-data
 Version:	0.4.7
-Release:	2
+Release:	3
 License:	Distributable
 Group:		Development/X11
 Url:		http://poppler.freedesktop.org/
