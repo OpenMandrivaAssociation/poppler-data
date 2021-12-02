@@ -1,6 +1,6 @@
 Summary:	Encoding files for poppler
 Name:		poppler-data
-Version:	0.4.10
+Version:	0.4.11
 Release:	1
 License:	Distributable
 Group:		Development/X11
@@ -22,12 +22,12 @@ Group:		Development/Other
 %{summary}.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 
 %install
-%makeinstall_std datadir=%{_datadir}
+%make_install datadir=%{_datadir}
 
 %files
 %doc README COPYING COPYING.gpl2 COPYING.adobe
