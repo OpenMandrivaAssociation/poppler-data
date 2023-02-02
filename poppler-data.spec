@@ -1,6 +1,6 @@
 Summary:	Encoding files for poppler
 Name:		poppler-data
-Version:	0.4.11
+Version:	0.4.12
 Release:	1
 License:	Distributable
 Group:		Development/X11
