@@ -4,7 +4,7 @@ Version:	0.4.12
 Release:	2
 License:	Distributable
 Group:		Development/X11
-Url:		http://poppler.freedesktop.org/
+Url:		https://poppler.freedesktop.org/
 Source0:	http://poppler.freedesktop.org/%{name}-%{version}.tar.gz
 BuildArch:	noarch
 
